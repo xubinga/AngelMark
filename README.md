@@ -1,4 +1,4 @@
-# AngelMark
+# AngelMark-星标
 
 ## 注意：本项目大量内容由AI生成，使用所产生的任何后果概不负责
 
@@ -6,7 +6,7 @@
 - [需求梳理](./docs/requirements.md)
 - [桌面打包说明](./docs/desktop-packaging.md)
 - [XLSX 导入模板说明](./docs/xlsx-import-template.md)
-AngelMark 是一个个人社交好感度管理软件原型，面向本地单机使用场景，帮助用户维护好友档案、互动标签、事件时间线、关系规划和趋势可视化。把自己的好友圈变成一场Galgame（bushi）
+- AngelMark 是一个个人社交好感度管理软件原型，面向本地单机使用场景，帮助用户维护好友档案、互动标签、事件时间线、关系规划和趋势可视化。把自己的好友圈变成一场Galgame（bushi）
 
 项目当前已经完成以下核心能力：
 - 固定标题栏 + 左侧导航 + 右侧动态内容区的信息架构
