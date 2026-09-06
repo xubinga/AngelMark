@@ -1,0 +1,36 @@
+{
+  "appId": "com.angelmark.desktop",
+  "productName": "AngelMark",
+  "artifactName": "AngelMark-${version}-win-${arch}-release.${ext}",
+  "asar": true,
+  "compression": "maximum",
+  "directories": {
+    "output": "release/win-release"
+  },
+  "publish": null,
+  "files": [
+    "dist/**/*",
+    "electron/**/*",
+    "package.json"
+  ],
+  "extraMetadata": {
+    "main": "electron/main.mjs"
+  },
+  "npmRebuild": false,
+  "removePackageScripts": true,
+  "win": {
+    "target": [
+      {
+        "target": "portable",
+        "arch": [
+          "x64"
+        ]
+      }
+    ],
+    "signAndEditExecutable": false,
+    "signExecutable": false
+  },
+  "portable": {
+    "artifactName": "AngelMark-${version}-win-${arch}-release.${ext}"
+  }
+}

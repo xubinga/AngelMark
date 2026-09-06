@@ -1,0 +1,36 @@
+{
+  "appId": "com.angelmark.desktop.debug",
+  "productName": "AngelMark Debug",
+  "artifactName": "AngelMark-Debug-${version}-win-${arch}.${ext}",
+  "asar": false,
+  "compression": "store",
+  "directories": {
+    "output": "release/win-debug"
+  },
+  "publish": null,
+  "files": [
+    "dist/**/*",
+    "electron/**/*",
+    "package.json"
+  ],
+  "extraMetadata": {
+    "main": "electron/main.mjs"
+  },
+  "npmRebuild": false,
+  "removePackageScripts": true,
+  "win": {
+    "target": [
+      {
+        "target": "portable",
+        "arch": [
+          "x64"
+        ]
+      }
+    ],
+    "signAndEditExecutable": false,
+    "signExecutable": false
+  },
+  "portable": {
+    "artifactName": "AngelMark-Debug-${version}-win-${arch}.${ext}"
+  }
+}
